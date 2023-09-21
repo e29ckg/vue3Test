@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import TodoView from '../views/TodoView.vue'
 import TodoEditeView from '../views/TodoEditeView.vue'
-import TestView from '../views/TestView.vue'
+import LoginView from '../views/LoginView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,9 +12,9 @@ const router = createRouter({
       component: TodoView
     },
     {
-      path: '/test',
-      name: 'test',
-      component: TestView
+      path: '/login',
+      name: 'login',
+      component: LoginView
     },
     {
       path: '/todo/:id/edite',

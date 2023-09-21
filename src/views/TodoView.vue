@@ -52,10 +52,9 @@ const onChangeSt = async (todoData, id) => {
 
 
 <template>
-  <div class="container px-auto min-w-fit justify-self-auto">
-    
+  <div class="container">    
     <div>
-
+     
       <input 
       class="input input-bordered input-info w-ful"
       type="text" 

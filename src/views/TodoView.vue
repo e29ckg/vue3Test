@@ -54,7 +54,6 @@ const onChangeSt = async (todoData, id) => {
 <template>
   <div class="container">    
     <div>
-     
       <input 
       class="input input-bordered input-info w-ful"
       type="text" 
